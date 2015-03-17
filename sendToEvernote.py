@@ -47,7 +47,7 @@ else:
 
 
 # Make sure that the required 'mailer' module is available
-if "mailesr" in [tuple_[1] for tuple_ in pkgutil.iter_modules()]:
+if "mailer" in [tuple_[1] for tuple_ in pkgutil.iter_modules()]:
 	from mailer import Mailer
 	from mailer import Message
 
